@@ -14,8 +14,8 @@ export const Secret = () => {
     const onCloseModal = () => setOpen(false);
 
     const validateCode = () => {
-        if (code === "1234") {
-            alert("Тут будет инфа какая-то");
+        if (code === "7475") {
+            alert("тут чето будет потом если я не забуду");
         } else {
             alert(
                 "Не правильный код! Но я тут обманул, попыток бесконечно, но перебирать не интересно(("
