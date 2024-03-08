@@ -1,6 +1,5 @@
 import React from "react";
 import { Logo } from "./nav";
-import {Secret} from "./secret.tsx";
 
 export const Header: React.FC = () => {
   return (
@@ -12,7 +11,6 @@ export const Header: React.FC = () => {
           </a>
         </div>
         <div className="flex flex-row gap-2">
-          <Secret/>
           <a
               className="flex items-center gap-1 group cursor-pointer"
               href={"https://allwhisp.me"}
